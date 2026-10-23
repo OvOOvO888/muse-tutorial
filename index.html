@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="color-scheme" content="light dark" />
+    <link rel="icon" href="data:," />
+    <title>Muse 成品号购买使用教程 · 换绑邮箱</title>
+    <style>
+      :root {
+        --bg: #f7f5f1;
+        --surface: #ffffff;
+        --ink: #23211d;
+        --ink-soft: #5c574e;
+        --line: #e3ded3;
+        --accent: #b4552d;
+        --accent-soft: #f6e7de;
+        --note-bg: #fdf3e3;
+        --note-line: #e5c98f;
+        --note-ink: #6d5518;
+        --radius: 10px;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #161513;
+          --surface: #201e1a;
+          --ink: #ece8e0;
+          --ink-soft: #b3ac9f;
+          --line: #38342d;
+          --accent: #e08a5c;
+          --accent-soft: #33241b;
+          --note-bg: #2c2513;
+          --note-line: #5d4c22;
+          --note-ink: #e0c98a;
+        }
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--ink);
+        font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", system-ui, sans-serif;
+        line-height: 1.75;
+        -webkit-font-smoothing: antialiased;
+      }
+      .wrap {
+        max-width: 720px;
+        margin: 0 auto;
+        padding: 32px 20px 56px;
+      }
+      h1 {
+        font-size: 1.7rem;
+        line-height: 1.35;
+        margin: 0 0 10px;
+        font-weight: 700;
+        letter-spacing: 0.01em;
+      }
+      .lead {
+        color: var(--ink-soft);
+        font-size: 1rem;
+        margin: 0 0 30px;
+      }
+      .warranty {
+        background: var(--note-bg);
+        border: 2px solid var(--note-line);
+        color: var(--note-ink);
+        border-radius: var(--radius);
+        padding: 14px 18px;
+        font-size: 1.05rem;
+        font-weight: 700;
+        margin: 0 0 36px;
+      }
+
+      .video-block { margin: 0 0 40px; }
+      .video-label {
+        color: var(--ink-soft);
+        font-size: 0.9rem;
+        margin: 0 0 8px;
+      }
+      .video-block video {
+        display: block;
+        width: 100%;
+        height: auto;
+        background: #000;
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+      }
+      .fs-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 7px;
+        margin-top: 10px;
+        padding: 9px 18px;
+        font: inherit;
+        font-size: 0.95rem;
+        font-weight: 700;
+        color: #fff;
+        background: var(--accent);
+        border: none;
+        border-radius: var(--radius);
+        cursor: pointer;
+        -webkit-tap-highlight-color: transparent;
+      }
+      .fs-btn:active { opacity: 0.85; }
+      .fs-btn svg { flex: none; }
+      .video-fallback {
+        margin: 10px 0 0;
+        font-size: 0.95rem;
+        color: var(--ink-soft);
+      }
+      .video-fallback a { color: var(--accent); font-weight: 700; }
+
+      .step { margin-bottom: 44px; }
+      .step-head {
+        display: flex;
+        align-items: baseline;
+        gap: 12px;
+        margin-bottom: 8px;
+      }
+      .step-num {
+        flex: none;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 34px;
+        height: 34px;
+        border-radius: 50%;
+        background: var(--accent);
+        color: #fff;
+        font-size: 1rem;
+        font-weight: 700;
+        transform: translateY(6px);
+      }
+      .step h2 {
+        font-size: 1.2rem;
+        margin: 0;
+        line-height: 1.45;
+        font-weight: 700;
+      }
+      .step p {
+        margin: 6px 0 14px;
+        font-size: 1rem;
+      }
+      .emphasis {
+        background: var(--note-bg);
+        border: 1px solid var(--note-line);
+        color: var(--note-ink);
+        border-radius: var(--radius);
+        padding: 10px 16px;
+        font-size: 0.95rem;
+        margin: 10px 0 16px;
+      }
+      .emphasis strong { font-weight: 700; }
+
+      figure {
+        margin: 0 0 14px;
+      }
+      figure img {
+        display: block;
+        width: 100%;
+        height: auto;
+        background: var(--surface);
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+      }
+
+      .done-box {
+        background: var(--accent-soft);
+        border-radius: var(--radius);
+        padding: 16px 20px;
+        font-size: 1rem;
+        margin-bottom: 14px;
+      }
+      footer {
+        margin-top: 48px;
+        padding-top: 20px;
+        border-top: 1px solid var(--line);
+      }
+      .risk {
+        background: var(--note-bg);
+        border: 1px solid var(--note-line);
+        color: var(--note-ink);
+        border-radius: var(--radius);
+        padding: 12px 18px;
+        font-size: 0.95rem;
+      }
+      @media (max-width: 520px) {
+        .wrap { padding: 24px 16px 44px; }
+        h1 { font-size: 1.45rem; }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="wrap">
+      <h1>Muse 成品号：把账号换绑成自己的邮箱</h1>
+      <p class="lead">号买回来先把临时邮箱换成你自己的，一共 7 步，照着点就行。</p>
+
+      <div class="warranty">质保首登</div>
+
+      <div class="video-block">
+        <p class="video-label">视频教程</p>
+        <video id="tutorial-video" src="assets/video-tutorial.mp4" poster="assets/img-02.jpg" width="682" height="480" controls playsinline webkit-playsinline x5-playsinline="true" x5-video-player-type="h5" preload="metadata"></video>
+        <p class="video-fallback" id="video-fallback" hidden>视频没播出来？<a href="assets/video-tutorial.mp4">点这里直接打开视频看</a></p>
+        <button type="button" class="fs-btn" id="fs-btn" aria-label="全屏放大观看视频教程">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 3H5a2 2 0 0 0-2 2v3"/><path d="M16 3h3a2 2 0 0 1 2 2v3"/><path d="M8 21H5a2 2 0 0 1-2-2v-3"/><path d="M16 21h3a2 2 0 0 0 2-2v-3"/></svg>
+          点这里全屏放大看
+        </button>
+      </div>
+
+      <!-- 步骤1 -->
+      <section class="step">
+        <div class="step-head">
+          <span class="step-num">1</span>
+          <h2>点「设置」→「通用」→「Meta 账户」</h2>
+        </div>
+        <p>登录后，点左下角「设置」，再点「通用」，然后点「Meta 账户」。</p>
+        <figure>
+          <img src="assets/img-04.jpg" alt="设置页面，通用一栏里的 Meta 账户被红框标出" width="1600" height="1177" loading="lazy" decoding="async" />
+        </figure>
+      </section>
+
+      <!-- 步骤2 -->
+      <section class="step">
+        <div class="step-head">
+          <span class="step-num">2</span>
+          <h2>找到现在绑的临时邮箱</h2>
+        </div>
+        <p>在账户中心找到现在绑的临时邮箱，点进去，再点「Add or edit contact info」。</p>
+        <figure>
+          <img src="assets/img-05.jpg" alt="Meta 账户中心首页，当前绑定的临时邮箱被红框标出" width="1600" height="661" loading="lazy" decoding="async" />
+        </figure>
+        <figure>
+          <img src="assets/img-06.jpg" alt="Your account 页面，Default contact info 里的临时邮箱被红框标出" width="1574" height="1318" loading="lazy" decoding="async" />
+        </figure>
+        <figure>
+          <img src="assets/img-07.jpg" alt="Default contact info 弹窗，Add or edit contact info 被红框标出" width="1356" height="958" loading="lazy" decoding="async" />
+        </figure>
+      </section>
+
+      <!-- 步骤3 -->
+      <section class="step">
+        <div class="step-head">
+          <span class="step-num">3</span>
+          <h2>加一个自己的新邮箱</h2>
+        </div>
+        <p>点「Add new contact info」→「Add email」，填上你的邮箱，点 Next。</p>
+        <div class="emphasis"><strong>注意：</strong>这个邮箱必须是<strong>从来没用过 Muse 的新邮箱</strong>，用过的绑不上。</div>
+        <figure>
+          <img src="assets/img-08.jpg" alt="Contact info 页面，Add new contact info 和 Add email 被红框标出" width="1344" height="1072" loading="lazy" decoding="async" />
+        </figure>
+        <figure>
+          <img src="assets/img-09.jpg" alt="Add email 页面，已经填入自己的新邮箱，底部是 Next 按钮" width="1234" height="894" loading="lazy" decoding="async" />
+        </figure>
+      </section>
+
+      <!-- 步骤4 -->
+      <section class="step">
+        <div class="step-head">
+          <span class="step-num">4</span>
+          <h2>填验证码</h2>
+        </div>
+        <p>去新邮箱里查收验证码，填进去，点 Next。</p>
+        <figure>
+          <img src="assets/img-10.jpg" alt="输入确认验证码的页面，验证码已填入，底部是 Next 按钮" width="1270" height="880" loading="lazy" decoding="async" />
+        </figure>
+      </section>
+
+      <!-- 步骤5 -->
+      <section class="step">
+        <div class="step-head">
+          <span class="step-num">5</span>
+          <h2>确认新邮箱绑好，并设为默认</h2>
+        </div>
+        <p>回到首页，看新邮箱有没有绑上；再把它设成默认（圆圈选在新邮箱上）。</p>
+        <figure>
+          <img src="assets/img-11.jpg" alt="账户中心首页，第一项已经换成新绑定的邮箱，被红框标出" width="1600" height="802" loading="lazy" decoding="async" />
+        </figure>
+        <figure>
+          <img src="assets/img-12.jpg" alt="Default contact info 弹窗，新邮箱被选为默认联系方式，旧临时邮箱还在列表中" width="1348" height="1012" loading="lazy" decoding="async" />
+        </figure>
+      </section>
+
+      <!-- 步骤6 -->
+      <section class="step">
+        <div class="step-head">
+          <span class="step-num">6</span>
+          <h2>把旧的临时邮箱删掉</h2>
+        </div>
+        <p>点进旧的临时邮箱，点「Delete email」，确认框里再点「Delete」。</p>
+        <div class="emphasis"><strong>注意：</strong>这一步<strong>一定要做</strong>，不删的话，别人还能用旧邮箱登你的号。</div>
+        <figure>
+          <img src="assets/img-13.jpg" alt="旧临时邮箱的详情页，Delete email 被红框标出" width="1224" height="856" loading="lazy" decoding="async" />
+        </figure>
+        <figure>
+          <img src="assets/img-14.jpg" alt="Delete email 确认弹窗，Delete 按钮被红框标出" width="1254" height="854" loading="lazy" decoding="async" />
+        </figure>
+      </section>
+
+      <!-- 步骤7 -->
+      <section class="step">
+        <div class="step-head">
+          <span class="step-num">7</span>
+          <h2>看到「Email deleted」就完成了</h2>
+        </div>
+        <div class="done-box">页面弹出「Email deleted」，首页也只剩你自己的邮箱，换绑就完成了。</div>
+        <figure>
+          <img src="assets/img-15.jpg" alt="账户中心首页只剩自己的邮箱，底部弹出 Email deleted 提示，被红框标出" width="1648" height="1900" loading="lazy" decoding="async" />
+        </figure>
+      </section>
+
+    </main>
+    <script>
+      (function () {
+        var video = document.getElementById('tutorial-video');
+        var btn = document.getElementById('fs-btn');
+        if (!video || !btn) return;
+        var fallback = document.getElementById('video-fallback');
+        function showFallback() { if (fallback) fallback.hidden = false; }
+        video.addEventListener('error', showFallback);
+        if (video.error) showFallback();
+        btn.addEventListener('click', function () {
+          var done = false;
+          try {
+            if (video.requestFullscreen) {
+              var p = video.requestFullscreen();
+              if (p && p.catch) p.catch(function () {});
+              done = true;
+            } else if (video.webkitRequestFullscreen) {
+              video.webkitRequestFullscreen();
+              done = true;
+            } else if (video.webkitEnterFullscreen) {
+              // iOS Safari / iOS 内置浏览器：视频原生全屏
+              video.webkitEnterFullscreen();
+              done = true;
+            } else if (video.mozRequestFullScreen) {
+              video.mozRequestFullScreen();
+              done = true;
+            } else if (video.msRequestFullscreen) {
+              video.msRequestFullscreen();
+              done = true;
+            }
+          } catch (e) {
+            done = false;
+          }
+          if (video.paused) {
+            var playPromise = video.play();
+            if (playPromise && playPromise.catch) playPromise.catch(function () {});
+          }
+          if (!done) {
+            // 极少数浏览器不支持全屏 API 时，至少滚动到视频并播放
+            video.scrollIntoView({ block: 'center' });
+          }
+        });
+      })();
+    </script>
+  </body>
+</html>
